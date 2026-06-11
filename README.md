@@ -30,11 +30,13 @@ cd backend
 
 npm install
 
+
 Inicializa la base de datos:
 
 npm run db:init
 
 npm run dev
+
 
 una vez iniciado el backend deben ir a la carpeta de frontend y apretar el boton de "Go Live" que se obtiene al descargar la dependencia Live server (esto facilita el iniciar el programa y ademas te permite modificar el frontend en tiempo real)
 
