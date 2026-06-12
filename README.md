@@ -26,6 +26,8 @@ Proyecto web con frontend HTML/CSS/JS y backend Node.js + Express conectado a Ne
 
 ## Instalación
 iniciar el archivo
+
+
 cd backend  //se dirijen a la carpeta backend
 
 
