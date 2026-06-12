@@ -1,4 +1,85 @@
-<!DOCTYPE html><html lang="es"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>Impacto | Aetheris</title><link rel="stylesheet" href="css/styles.css"></head><body>
-<nav class="nav"><a class="logo" href="index.html">Aetheris</a><div class="nav-links"><a href="catalogo.html">Catálogo</a><a href="index.html#como">Cómo funciona</a><a class="active" href="impacto.html">Impacto</a><a href="login.html">Mi Cuenta</a><a class="btn green" href="#donar">Donar</a></div></nav>
-<main><section class="container grid two impact-hero"><div><span class="badge">Iniciativa de Impacto Circular 2027</span><h1 class="page-title">Cada contribución imprime una nueva oportunidad.</h1><p class="lead">Aetheris transforma donaciones y plástico reciclado en prótesis de grado clínico. La botella parte desde cero y sube con cada aporte registrado.</p><div id="donar" class="card"><h2>Haz tu aporte hoy</h2><div class="donation-options"><button class="btn amount active" data-amount="10">$10</button><button class="btn amount" data-amount="50">$50</button><button class="btn amount" data-amount="100">$100</button></div><div class="field"><label>Otro monto</label><input id="otherAmount" type="number" min="1" placeholder="Ej. 150"></div><button class="btn primary full" onclick="donateNow()">Donar ahora ♡</button><p class="muted">Si inicias sesión antes de donar, el aporte queda asociado a tu cuenta.</p><div id="donationMsg"></div></div></div><div class="card"><h2>Meta comunitaria 2027</h2><div class="bottle"><div id="donationWater" class="water"></div></div><p id="donationPercent" class="progress-number">0%</p><p class="muted" id="donationTotals">$0 · 0 kg de plástico</p></div></section><section class="section soft"><div class="container"><h2 class="section-title">Nuestra Red de Apoyo Clínico y Sostenible</h2><div class="grid four"><div class="card"><h2>TELETÓN</h2></div><div class="card"><h2>EcoPET</h2></div><div class="card"><h2>Hosp. Central</h2></div><div class="card"><h2>BioMechanics.Org</h2></div></div></div></section></main>
-<footer class="footer"><strong>Aetheris</strong><span>ISO 13485 · Carbon Neutral</span><span>Impacto Social · Contacto · Privacidad</span></footer><script src="js/api.js"></script><script src="js/impacto.js"></script></body></html>
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Impacto | Aetheris</title>
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+        <nav class="nav">
+            <a class="logo" href="index.html">Aetheris</a>
+            <div class="nav-links">
+                <a href="catalogo.html">Catálogo</a>
+                <a href="index.html#como">Cómo funciona</a>
+                <a class="active" href="impacto.html">Impacto</a>
+                <a href="login.html">Mi Cuenta</a>
+                <a class="btn green" href="#donar">Donar</a>
+            </div>
+        </nav>
+        <main>
+            <section class="container grid two impact-hero">
+                <div>
+                    <span class="badge">Iniciativa de Impacto Circular 2027</span>
+                    <h1 class="page-title">Cada contribución imprime una nueva oportunidad.</h1>
+                    <p class="lead">
+                        Aetheris transforma donaciones y plástico reciclado en prótesis de grado clínico. La botella parte desde cero y sube con cada aporte registrado.
+                    </p>
+                    <div id="donar" class="card">
+                        <h2>Haz tu aporte hoy</h2>
+                        <div class="donation-options">
+                            <button class="btn amount active" data-amount="10">$10</button>
+                            <button class="btn amount" data-amount="50">$50</button>
+                            <button class="btn amount" data-amount="100">$100</button>
+                        </div>
+                        <div class="field">
+                            <label>Otro monto</label>
+                            <input id="otherAmount" type="number" min="1" placeholder="Ej. 150">
+                        </div>
+                        <button class="btn primary full" onclick="donateNow()">Donar ahora ♡</button>
+                        <p class="muted">Si inicias sesión antes de donar, el aporte queda asociado a tu cuenta.</p>
+                        <div id="donationMsg">
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <h2>Meta comunitaria 2027</h2>
+                    <div class="bottle">
+                        <div id="donationWater" class="water">
+                        </div>
+                    </div>
+                    <p id="donationPercent" class="progress-number">0%</p>
+                    <p class="muted" id="donationTotals">$0 · 0 kg de plástico</p>
+                </div>
+            </section>
+            <section class="section soft">
+                <div class="container">
+                    <h2 class="section-title">Nuestra Red de Apoyo Clínico y Sostenible</h2>
+                    <div class="grid four">
+                        <div class="card">
+                            <h2>TELETÓN</h2>
+                        </div>
+                        <div class="card">
+                            <h2>EcoPET</h2>
+                        </div>
+                        <div class="card">
+                            <h2>Hosp. Central</h2>
+                        </div>
+                        <div class="card">
+                            <h2>BioMechanics.Org</h2>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <strong>Aetheris</strong>
+            <span>ISO 13485 · Carbon Neutral</span>
+            <span>Impacto Social · Contacto · Privacidad</span>
+        </footer>
+        <script src="js/api.js">
+        </script>
+        <script src="js/impacto.js">
+        </script>
+    </body>
+</html>
