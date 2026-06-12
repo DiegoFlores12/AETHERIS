@@ -25,17 +25,22 @@ Proyecto web con frontend HTML/CSS/JS y backend Node.js + Express conectado a Ne
 - `config/db.js`: centraliza la conexión a Neon.
 
 ## Instalación
+iniciar el archivo
+cd backend  //se dirijen a la carpeta backend
 
-cd backend
 
-npm install
+npm install  // instalan las dependencias
+
 
 
 Inicializa la base de datos:
 
-npm run db:init
 
-npm run dev
+npm run db:init  // inician la base de datos
+
+
+npm run dev  //inician el backend
+
 
 
 una vez iniciado el backend deben ir a la carpeta de frontend y apretar el boton de "Go Live" que se obtiene al descargar la dependencia Live server (esto facilita el iniciar el programa y ademas te permite modificar el frontend en tiempo real)
